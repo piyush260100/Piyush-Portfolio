@@ -1,0 +1,65 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    margin: 12px 0px ;
+}
+
+.contact-left{
+
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.download-resume{
+    display: flex;
+    /* padding: 12px 8px; */
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-resume button{
+    border-radius: 16px;
+    text-decoration: none;
+    padding: 12px 8px;
+    background-color:yellowgreen;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width:720px) {
+
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-left{
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 14px;
+    }
+
+    .download-resume button{
+        font-size: 14px;
+    }
+    
+}

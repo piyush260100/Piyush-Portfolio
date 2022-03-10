@@ -1,0 +1,29 @@
+.social-contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+}
+
+.social-icon-div{
+   
+    cursor: pointer;
+    
+}
+
+.social-icon{
+    height: 80px;
+    width: 80px;
+}
+
+@media only screen and (max-width :720px){
+
+    .social-contact{
+        width:100%;
+    }
+
+    .social-icon{
+        height: 50px;
+        width: 50px;
+    }
+}

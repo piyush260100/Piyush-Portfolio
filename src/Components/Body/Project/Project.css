@@ -1,0 +1,12 @@
+.project{
+    margin-bottom: 50px;
+}
+
+
+.section-title{
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    
+}

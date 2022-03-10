@@ -1,0 +1,99 @@
+.project-card{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin:16px 0px;
+    padding: 8px;
+}
+
+.project-photo{
+    width:40%;
+    height:40%;
+}
+
+.project-info{
+    /* margin-right: 24px; */
+    text-align:justify;
+}
+
+.project-about{
+    margin-right: 80px;
+}
+
+.project-title{
+
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.project-tags{
+    display: flex;
+    max-width: 60%;
+    flex-wrap: wrap;
+}
+
+.tag{
+    padding: 4px 8px;
+    background-color: greenyellow;
+    border-radius: 16px;
+    margin: 6px;
+    font-weight: 600;
+}
+
+.project-links a{
+
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.project-links{
+    display: flex;
+    margin-top: 8px;
+}
+
+.link-button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+    background-color: rgb(106, 201, 238);
+    padding : 6px 8px;
+    border-radius: 16px;
+    font-size: 16px;
+}
+
+.link-button i{
+    display: flex;
+    margin-right: 4px;
+    align-items: center;
+}
+
+@media only screen and (max-width:720px){
+    
+    .project-card{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+    
+    .project-photo{
+        width:60%;
+        height:40%;
+        margin-bottom: 16px;
+    }
+
+    .project-info{
+        margin-top: 16px;
+    }
+
+    .project-tags{
+        max-width: 100%;
+    }
+
+    .project-about{
+        margin-right: 0px;
+    }
+}
